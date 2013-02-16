@@ -47,11 +47,11 @@ if has("gui_running")
     highlight CursorLine guibg=#323300
 else
     set t_Co=256
-    highlight Normal ctermfg=White ctermbg=Black 
+    highlight Normal ctermfg=White 
     highlight Cursor ctermfg=Black ctermbg=Yellow 
     highlight Keyword ctermfg=202 
     highlight Define ctermfg=202 
-    highlight Comment ctermfg=98
+    highlight Comment ctermfg=37
     highlight Type ctermfg=White 
     highlight rubySymbol ctermfg=66 
     highlight Identifier ctermfg=White 
