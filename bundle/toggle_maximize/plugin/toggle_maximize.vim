@@ -169,8 +169,6 @@ endfunction
 
 " == Keymaps ==
 
-nnoremap  <silent> <C-F> :call <SID>ToggleMaximize()<Enter>
-inoremap <silent> <C-F> <Esc>:call <SID>ToggleMaximize()<Enter>a
 nnoremap  <silent> <C-\> :call <SID>ToggleMaximize()<Enter>
 inoremap <silent> <C-\> <Esc>:call <SID>ToggleMaximize()<Enter>a
 "nnoremap  <silent> <C-G> :call <SID>ToggleMaximize()<Enter>
