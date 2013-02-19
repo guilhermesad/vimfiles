@@ -6,7 +6,7 @@
 
 2.  Clone the project into your VIM directory
 
-        git clone git://github.com/ramon/vimfiles.git ~/.vim
+        git clone git@github.com:GuilhermeSad/vimfiles.git ~/.vim
 
 3.  Install the submodules
 
@@ -19,21 +19,3 @@
 5.  Copy the config.vim sample
 
         cp ~/.vim/config.vim.example ~/.vim/config.vim
-
-
-# More Details
-  
-Wiki: [wiki]
-IRC: [irc]
-Issues: [issues]
-
-
-# Maintainers
-
-* Ramon Soares - http://github.com/ramon
-* Alisson Cavalcante Agiani - http://github.com/thelinuxlich
-
-
-[wiki]: http://wiki.github.com/ramon/vimfiles/
-[irc]: irc://irc.freenode.org/##ruby-br "Freenode@##ruby-br"
-[issues]: http://github.com/ramon/vimfiles/issues
