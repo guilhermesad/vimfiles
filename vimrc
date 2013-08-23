@@ -9,3 +9,5 @@ source ~/.vim/config/file_types.vim                 " Load config for file types
 set tabstop=3
 set shiftwidth=3
 colorscheme vibrantink
+noremap :t :tabnew
+noremap :ct :tabclose
