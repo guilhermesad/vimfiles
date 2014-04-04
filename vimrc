@@ -6,8 +6,10 @@ source ~/.vim/config/modules.vim                    " Load all modules of vimfil
 source ~/.vim/config/functions.vim                  " Load all custom functions
 source ~/.vim/config/file_types.vim                 " Load config for file types
 
-set tabstop=3
-set shiftwidth=3
+set tabstop=2
+set shiftwidth=2
 colorscheme vibrantink
 noremap :t :tabnew
 noremap :ct :tabclose
+
+autocmd FileType java colorscheme jellybeans
