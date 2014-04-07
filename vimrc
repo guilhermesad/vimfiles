@@ -11,5 +11,5 @@ set shiftwidth=2
 colorscheme vibrantink
 noremap :t :tabnew
 noremap :ct :tabclose
-
 autocmd FileType java colorscheme jellybeans
+cmap w!! %!sudo tee > /dev/null %
