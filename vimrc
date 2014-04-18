@@ -12,8 +12,8 @@ map <C-Up> <C-K>
 map <C-Right> <C-L>
 map <C-Down> <C-J>
 
-map <S-Up> <C-u>
-map <S-Down> <C-d>
+map <S-Up> 4k
+map <S-Down> 4j
 
 map 1 gT
 map 2 gt
