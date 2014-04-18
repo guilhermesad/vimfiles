@@ -26,5 +26,5 @@ set tags+="tmp/tags"
 let g:sparkup = "~/.vim/bundle/sparkup/bin/sparkup"
 
 " snipMate
-source ~/.vim/snippets/support_functions.vim
+"source ~/.vim/snippets/support_functions.vim
 

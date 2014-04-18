@@ -6,10 +6,33 @@ source ~/.vim/config/modules.vim                    " Load all modules of vimfil
 source ~/.vim/config/functions.vim                  " Load all custom functions
 source ~/.vim/config/file_types.vim                 " Load config for file types
 
+map <C-a> ggVG
+map <C-Left> <C-H>
+map <C-Up> <C-K>
+map <C-Right> <C-L>
+map <C-Down> <C-J>
+
+map <S-Up> <C-u>
+map <S-Down> <C-d>
+
+map 1 gT
+map 2 gt
+map q <plug>NERDTreeTabsToggle<CR>
+map Q i
+map w :tabnew<CR>
+map z :q!
+map Z :qa!
+
+cmap w!! %!sudo tee > /dev/null %
+
 set tabstop=2
 set shiftwidth=2
-colorscheme vibrantink
-noremap :t :tabnew
-noremap :ct :tabclose
+
 autocmd FileType java colorscheme jellybeans
-cmap w!! %!sudo tee > /dev/null %
+
+let g:nerdtree_tabs_open_on_console_startup=1
+let g:nerdtree_tabs_focus_on_files=1
+
+map <F2> :.!pbpaste<CR>
+map <F6> :!pbcopy && pbpaste<CR>
+map <C-c> y<F5>o<ESC>pV<F6>dd<F5>
