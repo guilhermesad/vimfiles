@@ -14,6 +14,8 @@ map <C-Down> <C-J>
 
 map <S-Up> 4k
 map <S-Down> 4j
+imap <S-Up> <ESC>4k i
+imap <S-Down> <ESC>4j i
 
 map 1 gT
 map 2 gt
