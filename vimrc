@@ -29,6 +29,7 @@ cmap w!! %!sudo tee > /dev/null %
 
 set tabstop=2
 set shiftwidth=2
+colorscheme vibrantink
 
 autocmd FileType java colorscheme jellybeans
 
