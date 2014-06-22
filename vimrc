@@ -28,6 +28,9 @@ map Z :qa!
 
 cmap w!! %!sudo tee > /dev/null %
 
+nmap mm :.s/^/#<CR>:noh<CR>
+xmap m :s/^/#<CR>:noh<CR>
+
 set tabstop=2
 set shiftwidth=2
 colorscheme vibrantink
