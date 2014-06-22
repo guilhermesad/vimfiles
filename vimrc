@@ -17,6 +17,7 @@ map <S-Down> 4j
 imap <S-Up> <ESC>4k i
 imap <S-Down> <ESC>4j i
 
+map 0 o<ESC>
 map 1 gT
 map 2 gt
 map K :noh<CR>
