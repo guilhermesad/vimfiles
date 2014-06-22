@@ -19,6 +19,7 @@ imap <S-Down> <ESC>4j i
 
 map 1 gT
 map 2 gt
+map K :noh<CR>
 map q <plug>NERDTreeTabsToggle<CR>
 map Q i
 map w :tabnew<CR>
