@@ -22,7 +22,7 @@ map 2 gt
 map q <plug>NERDTreeTabsToggle<CR>
 map Q i
 map w :tabnew<CR>
-map z :q!
+map z :w<CR>
 map Z :qa!
 
 cmap w!! %!sudo tee > /dev/null %
