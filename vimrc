@@ -32,8 +32,16 @@ cmap w!! %!sudo tee > /dev/null %
 nmap mm :.s/^/#<CR>:noh<CR>
 xmap m :s/^/#<CR>:noh<CR>
 
-set tabstop=2
-set shiftwidth=2
+set shiftround  " Round indent to multiple of 'shiftwidth'
+set smartindent " Do smart indenting when starting a new line
+set autoindent  " Copy indent from current line, over to the new line
+
+let s:tabwidth=2
+exec 'set tabstop='    .s:tabwidth
+exec 'set shiftwidth=' .s:tabwidth
+exec 'set softtabstop='.s:tabwidth
+autocmd VimEnter * set shiftwidth=2
+
 colorscheme vibrantink
 
 autocmd FileType java colorscheme jellybeans
