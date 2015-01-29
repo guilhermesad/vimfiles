@@ -43,4 +43,4 @@ let g:nerdtree_tabs_focus_on_files=1
 
 map <F2> :.!pbpaste<CR>
 map <F6> :!pbcopy && pbpaste<CR>
-map <C-c> y<F5>o<ESC>pV<F6>dd<F5>
+map <C-c> y<F5>0pV<F6>dd<F5>
