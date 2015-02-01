@@ -40,7 +40,7 @@ let s:tabwidth=2
 exec 'set tabstop='    .s:tabwidth
 exec 'set shiftwidth=' .s:tabwidth
 exec 'set softtabstop='.s:tabwidth
-autocmd VimEnter * set shiftwidth=2
+autocmd BufEnter * set shiftwidth=2
 
 colorscheme vibrantink
 
