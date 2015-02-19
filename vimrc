@@ -21,7 +21,7 @@ map 0 o<ESC>
 map 1 gT
 map 2 gt
 map K :noh<CR>
-map q <plug>NERDTreeTabsToggle<CR>
+map q :NERDTree<CR>
 map Q i
 map w :tabnew<CR>
 map z :w<CR>
@@ -32,21 +32,20 @@ cmap w!! %!sudo tee > /dev/null %
 nmap mm :.s/^/#<CR>:noh<CR>
 xmap m :s/^/#<CR>:noh<CR>
 
-set shiftround  " Round indent to multiple of 'shiftwidth'
-set smartindent " Do smart indenting when starting a new line
-set autoindent  " Copy indent from current line, over to the new line
-
-let s:tabwidth=2
-exec 'set tabstop='    .s:tabwidth
-exec 'set shiftwidth=' .s:tabwidth
-exec 'set softtabstop='.s:tabwidth
-autocmd BufEnter * set shiftwidth=2
+" Commenting for EditorConfig
+"
+"set shiftround  " Round indent to multiple of 'shiftwidth'
+"set smartindent " Do smart indenting when starting a new line
+"set autoindent  " Copy indent from current line, over to the new line
+"
+"let s:tabwidth=2
+"exec 'set tabstop='    .s:tabwidth
+"exec 'set shiftwidth=' .s:tabwidth
+"exec 'set softtabstop='.s:tabwidth
+"autocmd BufEnter * set shiftwidth=2
 
 colorscheme vibrantink
 
-autocmd FileType java colorscheme jellybeans
-
-let g:nerdtree_tabs_open_on_console_startup=1
 let g:nerdtree_tabs_focus_on_files=1
 
 map <F2> :.!pbpaste<CR>
